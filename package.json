@@ -1,0 +1,22 @@
+{
+  "name": "gioplus",
+  "version": "1.0.0",
+  "description": "this is a retarded data service's expansion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c241196662/gioplus.git"
+  },
+  "keywords": [
+    "gio"
+  ],
+  "author": "baka_an",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c241196662/gioplus/issues"
+  },
+  "homepage": "https://github.com/c241196662/gioplus#readme"
+}

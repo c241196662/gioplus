@@ -3,8 +3,10 @@
 #import <Cordova/CDV.h>
 
 
-@interface Tim : CDVPlugin
+@interface Gioplus : CDVPlugin
 
 - (void) getDeviceId:(CDVInvokedUrlCommand *)command;
 
 - (void) getSessionId:(CDVInvokedUrlCommand *)command;
+
+@end

@@ -18,10 +18,10 @@
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
             <feature name="gioplus">
-                <param name="ios-package" value="gioplus" />
+                <param name="ios-package" value="Gioplus" />
             </feature>
         </config-file>
-        <header-file src="src/ios/gioplus.h" />
-        <source-file src="src/ios/gioplus.m" />
+        <header-file src="src/ios/Gioplus.h" />
+        <source-file src="src/ios/Gioplus.m" />
     </platform>
 </plugin>

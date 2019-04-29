@@ -1,25 +1,34 @@
 /********* gioplus.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
-#import "gioplus.h"
-#import <growing.h>
+#import "Gioplus.h"
+#import "Growing.h"
 
-@interface gioplus()
+@interface Gioplus()
 
 @end
 
-@implementation gioplus
+@implementation Gioplus
 
 - (void) getDeviceId:(CDVInvokedUrlCommand *)command
 {
-    NSString* deviceid = [growing getDeviceId];
+    NSString* deviceid = [Growing getDeviceId];
+    NSLog(@"cxk cxk cxk cxk cxk cxk cxk %@ %@ %@", deviceid, deviceid, deviceid);
+    NSLog(@"cxk cxk cxk cxk cxk cxk cxk %@ %@ %@", deviceid, deviceid, deviceid);
+    NSLog(@"cxk cxk cxk cxk cxk cxk cxk %@ %@ %@", deviceid, deviceid, deviceid);
+    NSLog(@"cxk cxk cxk cxk cxk cxk cxk %@ %@ %@", deviceid, deviceid, deviceid);
+    NSLog(@"cxk cxk cxk cxk cxk cxk cxk %@ %@ %@", deviceid, deviceid, deviceid);
+    NSLog(@"cxk cxk cxk cxk cxk cxk cxk %@ %@ %@", deviceid, deviceid, deviceid);
+    NSLog(@"cxk cxk cxk cxk cxk cxk cxk %@ %@ %@", deviceid, deviceid, deviceid);
+    NSLog(@"cxk cxk cxk cxk cxk cxk cxk %@ %@ %@", deviceid, deviceid, deviceid);
+    NSLog(@"cxk cxk cxk cxk cxk cxk cxk %@ %@ %@", deviceid, deviceid, deviceid);
     NSString* json = [NSString stringWithFormat:@"{\"deviceid\":\"%@\"}", deviceid];
     [self successWithCallbackID:command.callbackId withMessage:json];
 }
 
 - (void) getSessionId:(CDVInvokedUrlCommand *)command
 {
-    NSString* sessionid = [growing getSessionId];
+    NSString* sessionid = [Growing getSessionId];
     NSString* json = [NSString stringWithFormat:@"{\"sessionid\":\"%@\"}", sessionid];
     [self successWithCallbackID:command.callbackId withMessage:json];
 }
